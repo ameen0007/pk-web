@@ -1,0 +1,116 @@
+.hero-div{
+    width: 100%;
+    height: auto;
+    
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+   gap: 20px;
+    .hero-img {
+        max-width: 90%;
+        margin: auto;
+        
+        overflow: hidden;
+        position: relative;
+        opacity: 0;
+        animation: fadeInUp 1s ease forwards;
+    }
+
+    @keyframes fadeInUp {
+        0% {
+            transform: translateY(30%);
+            opacity: 0;
+        }
+        100% {
+            transform: translateY(0%);
+            opacity: 1;
+        }
+    }
+    .slogan{
+        opacity: 0;
+        animation: fadeInUp2 1.9s ease forwards;
+        width: 85%;
+        margin: auto;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        p{
+            letter-spacing: 1px;
+            line-height: 35px;
+            text-align: center;
+            font-family: "Bricolage Grotesque", sans-serif;
+            font-size: 25px;
+            font-weight: 600;
+        }
+    }
+
+@keyframes fadeInUp2 {
+    0% {
+        transform: translateY(70%);
+        opacity: 0;
+    }
+   
+    100% {
+        transform: translateY(0%);
+        opacity: 1;
+    }
+}
+.btn1 {
+    margin-top: 10px;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative; // Ensure the parent has a defined position
+
+    button {
+        margin: 10px;
+        padding: 15px 30px;
+        text-align: center;
+        text-transform: uppercase;
+        transition: 0.4s;
+        background-size: 200% auto;
+        color: rgb(255, 255, 255);
+        border-radius: 7px;
+        display: block;
+        border: 0px;
+        font-family: "Bricolage Grotesque", sans-serif;
+        background-image: linear-gradient(75deg, #0ba0ba 0%, 51%, #6278d0 100%);
+        cursor: pointer;
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+        opacity: 0; // Initially hide the button
+        animation: fadeIn 5s ease forwards, moveUpDown 2s infinite; // Add moveUpDown animation
+
+        &:hover {
+            background-position: right center;
+            color: #fff;
+            text-decoration: none;
+        }
+
+        &:active {
+            transform: scale(0.95);
+        }
+    }
+
+    @keyframes fadeIn {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+
+    @keyframes moveUpDown {
+        0%, 100% {
+            transform: translateY(0);
+        }
+        50% {
+            transform: translateY(-10px);
+        }
+    }
+}
+}
