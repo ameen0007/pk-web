@@ -15,8 +15,7 @@ export const Hero = () => {
             <img src="hero.png" alt="" />
         </div>
         <div className='slogan '>
-            <h2>“ BUILD YOUR DREAM APP 
-          WITH US ”</h2>
+            <h2>“ THINK IT, DREAM IT, WE'LL BUILD IT ”</h2>
           <p>we are experienced developers dedicated to bringing your app ideas to life.</p>
         </div>
         <div className='btn1'>
