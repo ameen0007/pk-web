@@ -2,6 +2,13 @@ import React from 'react'
 import './hero.scss'
 
 export const Hero = () => {
+  const scrollToNextSection = () => {
+    // Find the next section element
+    const nextSection = document.querySelector('.section2');
+
+    // Scroll to the next section smoothly
+    nextSection.scrollIntoView({ behavior: 'smooth' });
+  };
   return (
     <div className='hero-div'>
         <div className='hero-img' >
@@ -13,7 +20,7 @@ export const Hero = () => {
           <p>we are experienced developers dedicated to bringing your app ideas to life.</p>
         </div>
         <div className='btn1'>
-            <button>View More</button>
+            <button onClick={scrollToNextSection} >View More</button>
         </div>
       
     </div>

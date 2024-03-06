@@ -6,9 +6,14 @@ import { Hero } from '../Components/Hero/Hero'
 
 export const Home = () => {
   return (
+    <>
     <section className='section1'>
       <Header/>
       <Hero/>
     </section>
+    <section className='section2' >
+      
+    </section>
+    </>
   )
 }
