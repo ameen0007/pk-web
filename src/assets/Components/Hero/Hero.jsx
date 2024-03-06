@@ -15,9 +15,7 @@ export const Hero = () => {
         <div className='btn1'>
             <button>View More</button>
         </div>
-        <div className='why' >
-          <p>Why Choose Us?</p>
-        </div>
+      
     </div>
   )
 }
