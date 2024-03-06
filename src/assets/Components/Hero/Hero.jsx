@@ -8,11 +8,15 @@ export const Hero = () => {
             <img src="hero.png" alt="" />
         </div>
         <div className='slogan '>
-            <p>“ Build Your Dream App 
-          with Us: Turning Ideas into Reality!.. ”</p>
+            <h2>“ BUILD YOUR DREAM APP 
+          WITH US ”</h2>
+          <p>we are experienced developers dedicated to bringing your app ideas to life.</p>
         </div>
         <div className='btn1'>
             <button>View More</button>
+        </div>
+        <div className='why' >
+          <p>Why Choose Us?</p>
         </div>
     </div>
   )
