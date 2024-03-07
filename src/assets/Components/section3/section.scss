@@ -1,0 +1,67 @@
+h1{
+    font-size: 27px;
+    text-align: center;
+    font-family: "Inter Tight", sans-serif;
+    color: rgb(12, 17, 49);
+    font-weight: 600;
+    letter-spacing: 1px;
+
+}
+.service-main-div {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px; /* Adjust as needed */
+    padding: 30px;
+  }
+  
+  .serviceinner-div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    p{
+        font-size: 24px;
+    font-family: "Inter Tight", sans-serif;
+    color: rgb(12, 17, 49);
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+
+    }
+    small{
+        line-height: 27px;
+        font-size: 15px;
+        font-family: "Inter Tight", sans-serif;
+        color: rgb(8, 14, 55);
+        font-weight: 600;
+        letter-spacing: 1px;
+    }
+  }
+  
+  .serviceinner-div > div {
+    margin-bottom: 10px;
+  }
+  
+  .serviceinner-div img {
+    max-width: 100%;
+    
+
+  }
+  
+  @media only screen and (min-width: 600px) {
+    .service-main-div {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media only screen and (min-width: 900px) {
+    .service-main-div {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  
+  @media only screen and (min-width: 1300px) {
+    .service-main-div {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
