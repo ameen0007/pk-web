@@ -65,7 +65,10 @@ export const Home = () => {
           </div>
         </div>
       </section>
+     
+     <section className="section-3">
 
+     </section>
 
     </>
   );
