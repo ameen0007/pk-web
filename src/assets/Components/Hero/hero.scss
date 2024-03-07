@@ -15,7 +15,7 @@
         overflow: hidden;
         position: relative;
         opacity: 0;
-        animation: fadeInUp 1s ease forwards;
+        animation: fadeInUp 1.5s ease forwards;
         img{
             width: 100%;
             object-fit: contain;
@@ -24,7 +24,7 @@
 
     @keyframes fadeInUp {
         0% {
-            transform: translateY(30%);
+            transform: translateY(50%);
             opacity: 0;
         }
         100% {
@@ -34,7 +34,7 @@
     }
     .slogan{
         opacity: 0;
-        animation: fadeInUp2 1.9s ease forwards;
+        animation: fadeInUp2 2s ease forwards;
         width: 85%;
         margin: auto;
           display: flex;
@@ -61,7 +61,7 @@
 
 @keyframes fadeInUp2 {
     0% {
-        transform: translateY(70%);
+        transform: translateY(100%);
         opacity: 0;
     }
    
