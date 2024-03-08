@@ -141,9 +141,7 @@
 }
 @media only screen and (min-width: 767px) {
    .hero-div{
-    .hero-img{
-        max-width: 500px;
-    }
+  
     .slogan{
         p{
             font-size: 16px;
@@ -160,6 +158,11 @@
  }
  @media only screen and (min-width: 1000px) {
     .hero-div{
+        .hero-img{
+          
+            max-width: 500px;
+        
+        }
      .slogan{
         h2{
             font-size: 40px;
