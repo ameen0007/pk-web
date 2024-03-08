@@ -9,8 +9,10 @@ export const Section3 = () => {
        
   return (
     <>
-   
-        <h1>Our Services</h1>
+       <div className='h1' >  
+       <h1>Our Services</h1>
+       </div>
+       
    
     <div className='service-main-div'>
       <div className='serviceinner-div ' data-aos="fade-up">

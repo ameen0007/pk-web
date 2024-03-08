@@ -1,23 +1,39 @@
+.h1{
+  
+  width: 70%;
+  margin: auto;
+
+
+
 h1{
     font-size: 27px;
     text-align: center;
     font-family: "Inter Tight", sans-serif;
     color: rgb(12, 17, 49);
-    font-weight: 600;
+    font-weight: 700;
     letter-spacing: 1px;
+    background-color: #f9fafb;
+    margin-top: 15px;
+    border-bottom: 2px solid rgb(12, 17, 49);
+    padding: 0px 30px;
 
+}
 }
 .service-main-div {
     display: grid;
     grid-template-columns: 1fr;
     gap: 20px; /* Adjust as needed */
-    padding: 30px;
+    padding: 20px;
+    background-color: #f9fafb;
   }
   
   .serviceinner-div {
     display: flex;
+    padding: 15px;
     flex-direction: column;
     gap: 10px;
+    box-shadow: rgba(98, 109, 230, 0.2) 2px 2px 2px 2px,  rgba(0, 64, 255, 0.2) 0px 0px 0px 2px;
+    border-radius: 6px;
 
     p{
         font-size: 24px;
@@ -35,6 +51,7 @@ h1{
         color: rgb(8, 14, 55);
         font-weight: 600;
         letter-spacing: 1px;
+        
     }
   }
   
@@ -44,6 +61,8 @@ h1{
   
   .serviceinner-div img {
     max-width: 100%;
+    box-shadow: rgba(98, 109, 230, 0.2) 2px 2px 2px 2px,  rgba(0, 64, 255, 0.2) 0px 0px 0px 2px;
+    border-radius: 4px;
     
 
   }
