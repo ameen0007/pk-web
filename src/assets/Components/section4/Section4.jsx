@@ -10,9 +10,12 @@ export const Section4 = () => {
    
   return (
     <>
-      <div className="sec4h1" data-aos="fade-up">
+    <div className="main-h2">
+    <div className="sec4h1" data-aos="fade-up">
         <h1  >About us</h1>
       </div>
+    </div>
+     
       <div className="inside-about">
         <div className="p" data-aos="fade-up">
           <p>

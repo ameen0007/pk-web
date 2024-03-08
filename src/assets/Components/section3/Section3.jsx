@@ -9,9 +9,12 @@ export const Section3 = () => {
        
   return (
     <>
-       <div className='h1' >  
+    <div className='main-h1'>
+    <div className='h1' >  
        <h1>Our Services</h1>
        </div>
+    </div>
+     
        
    
     <div className='service-main-div'>
