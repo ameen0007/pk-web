@@ -11,7 +11,7 @@ export const Section5 = () => {
   };
 
   const handleEmailButtonClick = () => {
-    window.location.href = "mailto:stardevelopers511@.com.com"; // Replace example@example.com with your email address
+    window.location.href = "mailto:stardevelopers511@.com"; // Replace example@example.com with your email address
   };
   const handleWhatsAppButtonClick = () => {
     window.location.href =
