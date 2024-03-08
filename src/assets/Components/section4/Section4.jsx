@@ -1,13 +1,20 @@
 import React from "react";
 import './section4.scss'
+import Aos from "aos";
+import 'aos/dist/aos.css';
+import { useEffect } from "react";
 export const Section4 = () => {
+  useEffect(() => {
+    Aos.init({duration : '1000'})
+   },[])
+   
   return (
     <>
-      <div className="sec4h1">
-        <h1>About us</h1>
+      <div className="sec4h1" data-aos="fade-up">
+        <h1  >About us</h1>
       </div>
       <div className="inside-about">
-        <div className="p">
+        <div className="p" data-aos="fade-up">
           <p>
             In The Heart Of Kanjirappara, Along Kanam Road, Our Development Team
             Thrives Within The Walls Of Building No. 5/86. With The
@@ -19,7 +26,7 @@ export const Section4 = () => {
             Of Innovation. We're Excited To Build Remarkable Solutions Together.
           </p>
         </div>
-        <div className="img">
+        <div className="img" data-aos="fade-up">
           <img src="aboutus.jpg" alt="" />
         </div>
       </div>
