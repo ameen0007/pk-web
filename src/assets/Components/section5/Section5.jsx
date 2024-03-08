@@ -21,7 +21,7 @@ export const Section5 = () => {
     <>
       <div className="sec5h1">
         <div className="inh1" data-aos="fade-up">
-          <h1>contact us</h1>
+          <h1>Contact us</h1>
         </div>
       </div>
 
