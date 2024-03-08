@@ -6,6 +6,7 @@ import Aos from "aos";
 import 'aos/dist/aos.css';
 import { Section3 } from "../Components/section3/Section3";
 import { Section4 } from "../Components/section4/Section4";
+import { Section5 } from "../Components/section5/Section5";
 
 export const Home = () => {
 
@@ -37,6 +38,7 @@ export const Home = () => {
      
      <Section3/>
      <Section4/>
+     <Section5/>
     </>
   );
 };
