@@ -1,31 +1,45 @@
-import React from 'react'
-
+import React from "react";
+import "./section5.scss";
 export const Section5 = () => {
-    const handleCallButtonClick = () => {
-        window.location.href = 'tel:+918848683518'; // Replace +1234567890 with your phone number
-      };
-    
-      const handleEmailButtonClick = () => {
-        window.location.href = 'mailto:ameensirbay@gmail.com.com'; // Replace example@example.com with your email address
-      };
-      const handleWhatsAppButtonClick = () => {
-        window.location.href = "https://wa.me/918848683518/?text=Hello! We're excited to connect with you and provide exceptional service.";
-      };
+  const handleCallButtonClick = () => {
+    window.location.href = "tel:+918848683518"; // Replace +1234567890 with your phone number
+  };
+
+  const handleEmailButtonClick = () => {
+    window.location.href = "mailto:ameensirbay@gmail.com.com"; // Replace example@example.com with your email address
+  };
+  const handleWhatsAppButtonClick = () => {
+    window.location.href =
+      "https://wa.me/918848683518/?text=Hello! We're excited to connect with you and provide exceptional service.";
+  };
   return (
-    <> 
-    <div>
-        <div>
-            <h1>contact us</h1>
+    <>
+      <div className="sec5h1">
+        <div className="inh1">
+          <h1>contact us</h1>
         </div>
-    </div>
-    <div>
-        <div>
-            <button onClick={handleCallButtonClick}> call</button>
+      </div>
+
+      <div className="main-con">
+        <div onClick={handleCallButtonClick} className="inner-con">
+          <div className="img">
+            <img style={{width : '38px'}}  src="call.png" alt="" />
+          </div>
+          <p>Call</p>
         </div>
-        <div><button  onClick={handleEmailButtonClick} >email</button></div>
-        <div  ><button onClick={handleWhatsAppButtonClick}>WhatsApp</button></div>
-    </div>
+        <div onClick={handleEmailButtonClick} className="inner-con">
+          <div className="img">
+            <img style={{width : '45px'}} src="gmail.png" alt="" />
+          </div>
+          <p>Email</p>
+        </div>
+        <div onClick={handleWhatsAppButtonClick} className="inner-con">
+          <div className="img">
+          <img style={{width : '50px'}}  src="whatsapp.png" alt="" />
+          </div>
+          <p>WhatsApp</p>
+        </div>
+      </div>
     </>
-   
-  )
-}
+  );
+};
