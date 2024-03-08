@@ -5,6 +5,7 @@ import { Hero } from "../Components/Hero/Hero";
 import Aos from "aos";
 import 'aos/dist/aos.css';
 import { Section3 } from "../Components/section3/Section3";
+import { Section4 } from "../Components/section4/Section4";
 
 export const Home = () => {
 
@@ -35,7 +36,7 @@ export const Home = () => {
       </section>
      
      <Section3/>
-
+     <Section4/>
     </>
   );
 };

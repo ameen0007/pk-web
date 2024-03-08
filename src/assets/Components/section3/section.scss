@@ -69,18 +69,36 @@ h1{
   
   @media only screen and (min-width: 600px) {
     .service-main-div {
+      padding: 30px 40px;
       grid-template-columns: repeat(2, 1fr);
+      gap: 40px;
     }
   }
   
   @media only screen and (min-width: 900px) {
     .service-main-div {
+      margin: auto;
+      max-width: 1500px;
       grid-template-columns: repeat(3, 1fr);
     }
   }
   
-  @media only screen and (min-width: 1300px) {
+  @media only screen and (min-width: 1000px) {
+    .h1{
+      h1{
+        font-size: 46px;
+      }
+    }
     .service-main-div {
-      grid-template-columns: repeat(4, 1fr);
+     padding: 60px;
+       .serviceinner-div{
+        padding: 30px;
+        p{
+          font-size: 30px;
+        }
+        small{
+         font-size: 20px;
+        }
+       }
     }
   }
