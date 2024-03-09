@@ -1,15 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Francois+One&family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Francois+One&family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Lilita+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Fascinate+Inline&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Fascinate+Inline&family=Fugaz+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 .main-h1{
  width: 100%;
  background-color: #f9fafb;
  padding-top: 20px;
 .h1{
   
-  width: 70%;
+  width: 79%;
   margin: auto;
 background-color: #f9fafb;
 
@@ -18,13 +15,14 @@ h1{
     font-size: 27px;
     text-align: center;
     // font-family: "Francois One", sans-serif;
-    font-family: "Lilita One", sans-serif;
+    // font-family: "Lilita One", sans-serif;
     // font-family: "Fascinate Inline", system-ui;
     // font-family: "Fugaz One", sans-serif;
     // font-family: "Patua One", serif;
+    font-family: "Raleway", sans-serif;
     color: rgb(12, 17, 49);
-    font-weight: 500;
-    letter-spacing: 3px;
+    font-weight: 700;
+    letter-spacing: 1px;
     background-color: #f9fafb;
  
    

@@ -11,7 +11,7 @@ export const Section3 = () => {
     <>
     <div className='main-h1'>
     <div className='h1' >  
-       <h1>Our Services</h1>
+       <h1>OUR SERVICES</h1>
        </div>
     </div>
      

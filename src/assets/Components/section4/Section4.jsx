@@ -12,7 +12,7 @@ export const Section4 = () => {
     <>
     <div className="main-h2">
     <div className="sec4h1" data-aos="fade-up">
-        <h1  >About us</h1>
+        <h1  >ABOUT US</h1>
       </div>
     </div>
      
