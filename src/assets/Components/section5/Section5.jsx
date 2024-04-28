@@ -7,7 +7,7 @@ export const Section5 = () => {
     Aos.init({duration : '2000'})
    },[])
   const handleCallButtonClick = () => {
-    window.location.href = "tel:+918848683518"; // Replace +1234567890 with your phone number
+    window.location.href = "#"; // Replace +1234567890 with your phone number
   };
 
   const handleEmailButtonClick = () => {
@@ -15,7 +15,7 @@ export const Section5 = () => {
   };
   const handleWhatsAppButtonClick = () => {
     window.location.href =
-      "https://wa.me/918848683518/?text=Hello! We're excited to connect with you and provide exceptional service.";
+      "#";
   };
   return (
     <>
