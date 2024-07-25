@@ -31,7 +31,7 @@ export const Home = () => {
               <img  src="whylogo.png" alt="" />
             </div>
             <div className="main-why-div"  data-aos="fade-up" >
-             <p>Looking For Top-Notch Software Development Services? Look No Further Than Star Developers in Karukachal, Kerala, India. Our Team of Skilled Developers is Dedicated to Delivering High-quality Solutions Tailored to your Specific needs. Trust Star Developers to Bring Your Digital Projects to life with Expertise and Precision.</p>
+             <p>Need Cutting-Edge Software Solutions? Look no further than Zigma Solutions, your premier software development partner in Tevalakkara, Kollam District, Kerala, India. Our team of expert developers is committed to crafting exceptional software tailored to your unique requirements. Let Zigma Solutions transform your digital vision into reality with precision and expertise.</p>
             </div>
           </div>
         </div>

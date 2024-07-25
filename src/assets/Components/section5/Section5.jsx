@@ -7,16 +7,20 @@ export const Section5 = () => {
     Aos.init({duration : '2000'})
    },[])
   const handleCallButtonClick = () => {
-    window.location.href = "#"; // Replace +1234567890 with your phone number
+    window.location.href = "+917736754115"; // Replace +1234567890 with your phone number
   };
 
   const handleEmailButtonClick = () => {
-    window.location.href = "mailto:stardevelopers511@gmail.com"; // Replace example@example.com with your email address
+    window.location.href = "mailto:Zigmasolutions24@gmail.com"; // Replace example@example.com with your email address
   };
   const handleWhatsAppButtonClick = () => {
-    window.location.href =
-      "#";
+    const phoneNumber = '917736754115';
+    const message = encodeURIComponent('Hi, I am interested in your services. Can we chat?');
+    const url = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${message}`;
+  
+    window.location.href = url;
   };
+  
   return (
     <>
       <div className="sec5h1">
