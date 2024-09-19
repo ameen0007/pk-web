@@ -7,14 +7,16 @@ export const Section5 = () => {
     Aos.init({duration : '2000'})
    },[])
   const handleCallButtonClick = () => {
-    window.location.href = "+918089974958"; // Replace +1234567890 with your phone number
+    const handleCallButtonClick = () => {
+      window.location.href = `tel:+918089974958`; // Replace with your phone number
+    }; 
   };
 
   const handleEmailButtonClick = () => {
     window.location.href = "mailto:pkwebdesigning004@gmail.com"; // Replace example@example.com with your email address
   };
   const handleWhatsAppButtonClick = () => {
-    const phoneNumber = '918089974958';
+    const phoneNumber = '+918089974958';
     const message = encodeURIComponent('Hi, I am interested in your services. Can we chat?');
     const url = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${message}`;
   
