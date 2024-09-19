@@ -7,9 +7,9 @@ export const Section5 = () => {
     Aos.init({duration : '2000'})
    },[])
   const handleCallButtonClick = () => {
-    const handleCallButtonClick = () => {
+   
       window.location.href = `tel:+918089974958`; // Replace with your phone number
-    }; 
+  
   };
 
   const handleEmailButtonClick = () => {
