@@ -19,7 +19,7 @@ export const Section4 = () => {
       <div className="inside-about">
         <div className="p" data-aos="fade-up">
           <p>
-          In The Heart Of Tevalakkara, Along Kuttivattom Arinalloor Road, Near Greenfresh Vegetable, Our Development Team Thrives Within The Walls Of Building No. 5/86. With The Distinguished PIN 686540, We're Dedicated To Crafting Exceptional Digital Solutions. Our Passion For Innovation And Years Of Expertise Drive Us To Create Cutting-Edge Products That Exceed Expectations. From Software Development To App Creation, We Specialize In Bringing Ideas To Life. Thank You For Choosing Us To Embark On This Journey Of Innovation
+          In the Heart of Mattoor, Along the Streets of Kalady, Nestled in St. Antony's Tower, Our Development Team Thrives Within the Walls of Building No. 13/21A. With the distinguished PIN 683574, we're dedicated to crafting exceptional digital solutions. Our passion for innovation and years of expertise drive us to create cutting-edge products that exceed expectations. From software development to app creation, we specialize in bringing ideas to life. Thank you for choosing PK Web Designing to embark on this journey of innovation.
           </p>
         </div>
         <div className="img" data-aos="fade-up">

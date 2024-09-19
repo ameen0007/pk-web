@@ -31,7 +31,8 @@ export const Home = () => {
               <img  src="whylogo.png" alt="" />
             </div>
             <div className="main-why-div"  data-aos="fade-up" >
-             <p>Need Cutting-Edge Software Solutions? Look no further than Zigma Solutions, your premier software development partner in Tevalakkara, Kollam District, Kerala, India. Our team of expert developers is committed to crafting exceptional software tailored to your unique requirements. Let Zigma Solutions transform your digital vision into reality with precision and expertise.</p>
+             <p>Need Cutting-Edge Software Solutions?
+             Look no further than PK Web Designing, your premier software development partner in Mattoor, Kalady, Ernakulam District, Kerala, India. Our team of expert developers is committed to crafting exceptional software tailored to your unique requirements. Let PK Web Designing transform your digital vision into reality with precision and expertise.</p>
             </div>
           </div>
         </div>
